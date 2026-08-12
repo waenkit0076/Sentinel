@@ -51,4 +51,3 @@ class SysmonParser:
 parser=SysmonParser()
 logs=parser.load("data/sample.json")
 events=parser.parse_logs(logs)
-        
