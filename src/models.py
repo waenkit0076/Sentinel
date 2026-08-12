@@ -11,3 +11,12 @@ class LogEvent:
     process_id:int
     parent_process_id:int
     parent_process:str
+
+@dataclasses.dataclass
+class Alerts:
+    title:str
+    severity:str
+    description:str
+    event:LogEvent
+    mitre_technique:str
+    confidence:int
