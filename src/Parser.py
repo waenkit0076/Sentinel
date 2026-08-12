@@ -49,8 +49,8 @@ class SysmonParser:
         return parse_events
 
 parser=SysmonParser()
-events=parser.load("data/sample.json")
-ok=parser.parse_logs(events)
-print(ok)
+logs=parser.load("data/sample.json")
+events=parser.parse_logs(logs)
+print(events)
 
         
