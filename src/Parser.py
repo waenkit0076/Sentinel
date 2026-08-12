@@ -1,5 +1,5 @@
 import json
-from models import LogEvent
+from src.models import LogEvent
 
 
 class SysmonParser:

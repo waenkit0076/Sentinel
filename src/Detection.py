@@ -1,4 +1,4 @@
-from models import LogEvent, Alerts
+from src.models import LogEvent, Alerts
 
 class DetectionEngine:
     def __init__(self):
@@ -16,7 +16,3 @@ class DetectionEngine:
                 confidence=70
             )
             self.alerts.append(alert)
-
-Detect=DetectionEngine()
-Alert=Detect.detect(LogEvent)
-print(Alert)
