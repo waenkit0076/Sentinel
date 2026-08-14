@@ -14,3 +14,4 @@ events=parser.parse_logs(logs)
 det=DetectionEngine()
 Alert=det.detect(events[0])
 print(Alert)
+

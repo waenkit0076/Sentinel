@@ -6,7 +6,7 @@ class DetectionEngine:
 
     def detect(self, LogEvent):
         # Example detection logic
-        if "-encodedcommand" in LogEvent.command_line.lower():
+        if "-EncodedCommand" in LogEvent.command_line:
             alert = Alerts(
                 title="Suspicious PowerShell Command Detected",
                 severity="High",
@@ -16,3 +16,4 @@ class DetectionEngine:
                 confidence=70
             )
             self.alerts.append(alert)
+        return self.alerts
