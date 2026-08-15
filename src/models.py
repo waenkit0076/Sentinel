@@ -17,6 +17,5 @@ class Alerts:
     title:str
     severity:str
     description:str
-    event:LogEvent
     mitre_technique:str
     confidence:int
