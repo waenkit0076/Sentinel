@@ -19,3 +19,7 @@ class Alerts:
     description:str
     mitre_technique:str
     confidence:int
+
+@dataclasses.dataclass
+class MITRE:
+    pass
