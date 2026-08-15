@@ -11,7 +11,6 @@ class DetectionEngine:
                 title="Suspicious PowerShell Command Detected",
                 severity="High",
                 description=f"Detected a suspicious Obfuscated PowerShell command: {LogEvent.command_line}",
-                event=LogEvent,
                 mitre_technique="T1059.001",
                 confidence=70
             )

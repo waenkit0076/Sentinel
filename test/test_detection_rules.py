@@ -12,6 +12,7 @@ logs=parser.load("data/sample.json")
 events=parser.parse_logs(logs)
 
 det=DetectionEngine()
-Alert=det.detect(events[0])
-print(Alert)
+for event in events:
+    Alert=det.detect(event)
+    print(Alert)
 
