@@ -22,4 +22,6 @@ class Alerts:
 
 @dataclasses.dataclass
 class MITRE:
-    pass
+    id:str
+    technique:str
+    tactic:str
